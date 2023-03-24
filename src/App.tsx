@@ -1,7 +1,12 @@
-import ListGroup from './components/ListGroup';
+import ListGroup from "./components/ListGroup";
 
 function App() {
-  return <div><ListGroup /></div>
+  return (
+    <div>
+      {/* <ListGroup items={items} heading="Cities" /> */}
+      {<ListGroup />}
+    </div>
+  );
   //                 ^^^^ Self closing syntax = <Message></Message>
 }
 
